@@ -1,0 +1,60 @@
+.about {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    /* background-color: coral; */
+    background:linear-gradient(45deg,rgba(135, 255, 7, 0.925),rgb(206, 120, 7),rgba(81, 18, 255, 0.74),rgba(8, 255, 230, 0.648));
+    background-size: 400% 400% ;
+    animation: anim 5s infinite ease-in-out ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+body{
+      height: 100vh;
+
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .about ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .about ul li:before {
+    content: '• ';
+    color: #007bff;
+  }
+  
+  .about .image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .about .image img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  

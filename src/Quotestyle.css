@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(179, 239, 178);
+
+    background:linear-gradient(45deg,rgba(135, 255, 7, 0.925),rgb(206, 120, 7),rgba(81, 18, 255, 0.74),rgba(8, 255, 230, 0.648));
+    background-size: 400% 400% ;
+    animation: anim 5s infinite ease-in-out ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@keyframes anim {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+.quote {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2l0RXxLe-UkwmKKHFaasjui1RdUuxOlql9g&usqp=CAU);
+    background-size: cover;
+    width: 450px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+.quote small {
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+	display: block;
+	border: 2px solid #f1f6f8;
+	background: transparent;
+	padding: 10px 15px;
+	color: rgb(14, 14, 14)!important;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background: #1aed48;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

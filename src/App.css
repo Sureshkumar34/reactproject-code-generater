@@ -1,0 +1,15 @@
+#div1{
+  background:linear-gradient(45deg,rgba(81, 7, 255, 0.925),rgb(7, 206, 189),rgba(18, 255, 97, 0.74),rgba(255, 8, 8, 0.959));
+  background-size: 400% 400% ;
+  animation: anim 5s infinite ease-in-out ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@keyframes anim {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+}
